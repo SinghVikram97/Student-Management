@@ -357,7 +357,9 @@ export default class Home extends Component {
           >
             <div>
               <a class="waves-effect waves-light btn blue">
-                Explore all courses
+                <Link to="/allcourses" style={{ color: "white" }}>
+                  Explore all courses
+                </Link>
               </a>
             </div>
           </div>

@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import "./App.css";
 import Webd from "./components/Webd";
+import AllCourses from "./components/AllCourses";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/webd" component={Webd} />
+          <Route exact path="/allcourses" component={AllCourses} />
         </Switch>
       </div>
     </BrowserRouter>
